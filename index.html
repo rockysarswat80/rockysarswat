@@ -3,78 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rocky Sarswat's Music</title>
+    <title>Rocky Sarswat - Official Portfolio</title>
     <style>
         body {
-            background-color: black;
-            color: white;
-            text-align: center;
+            background-color: #1A1A40; /* Dark Blue */
+            color: #FFD700; /* Golden */
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
-        h1 {
-            color: gold;
-            text-align: left;
-            margin-left: 20px;
+        header {
+            background-color: #4B0082; /* Deep Purple */
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #FFD700;
         }
-        .logo {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 100px;
+        .container {
+            padding: 20px;
+            text-align: center;
         }
-        .platforms img {
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-            vertical-align: middle;
+        a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
         }
-        .platforms div {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #FFD700;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Rocky Sarswat's Music</h1>
-    <img src="logo.png" alt="Rocky Sarswat Logo" class="logo">
-    <p>Thank You From The Heart For Coming Here. I, Rocky Sarswat, Am A Haryanvi Singer/Lyricist/Composer/Director. Keep Loving Me Like This. I Will Keep Bringing Good Songs For You.</p>
+    <header>Welcome To Rocky Sarswat's Official Website</header>
     
-    <h2>My Playlist</h2>
-    <ul>
-        <li><a href="#">Song 1</a></li>
-        <li><a href="#">Song 2</a></li>
-        <li><a href="#">Song 3</a></li>
-    </ul>
-    
-    <h2>Photo Gallery</h2>
-    <p>(Upload your photos here)</p>
-    
-    <h2>Upcoming Projects</h2>
-    <p>(Upload posters here)</p>
-    
-    <h2>Achievements</h2>
-    <p>(Upload achievement photos here)</p>
-    
-    <h2>Listen Me On</h2>
-    <div class="platforms">
-        <div>
-            <img src="spotify.png" alt="Spotify"> Spotify
-            <img src="jiosaavn.png" alt="JioSaavn"> JioSaavn
-            <img src="gaana.png" alt="Gaana"> Gaana
-            <img src="anghami.png" alt="Anghami"> Anghami
-        </div>
-        <div>
-            <img src="resso.png" alt="Resso"> Resso
-            <img src="youtube_music.png" alt="YouTube Music"> YouTube Music
-        </div>
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my official portfolio! I am an independent artist creating meaningful music.</p>
     </div>
     
-    <h2>Follow Me</h2>
-    <p>YouTube | Instagram | Facebook</p>
+    <div class="section" id="music">
+        <h2>My Music</h2>
+        <p>Check out my latest songs:</p>
+        <ul>
+            <li><a href="#">Song 1 (YouTube)</a></li>
+            <li><a href="#">Song 2 (YouTube)</a></li>
+            <li><a href="#">Song 3 (YouTube)</a></li>
+        </ul>
+    </div>
     
-    <h2>Contact</h2>
-    <p>Email: rocky@example.com | Phone: +91 9876543210</p>
+    <div class="section" id="streaming">
+        <h2>Available On</h2>
+        <ul>
+            <li><a href="#">Spotify</a></li>
+            <li><a href="#">Apple Music</a></li>
+            <li><a href="#">YouTube Music</a></li>
+        </ul>
+    </div>
+    
+    <div class="section" id="gallery">
+        <h2>Photo Gallery</h2>
+        <p>Upload your latest photos here.</p>
+    </div>
+    
+    <div class="section" id="projects">
+        <h2>Upcoming Projects</h2>
+        <p>Posters of upcoming songs and projects.</p>
+    </div>
+    
+    <div class="section" id="achievements">
+        <h2>Achievements</h2>
+        <p>Upload and showcase your achievements.</p>
+    </div>
+    
+    <div class="section" id="follow-me">
+        <h2>Follow Me</h2>
+        <p>
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">YouTube</a>
+        </p>
+    </div>
+    
+    <div class="section" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: contact@rockysarswat.com</p>
+    </div>
 </body>
 </html>
